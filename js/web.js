@@ -6,14 +6,17 @@ function initialize_map() {
         mapTypeControl: false,
         scaleControl: false,
         draggable: false,
-        zoom: 17,
-        center: myLatlng,
+        zoom: 16,
+        center: myLatlng
+        /*,
         styles: [{
             stylers: [{
                 gamma: 0.60
-            }, {
+            }, 
+            {
                 hue: "#dd0d0d"
-            }, {
+            }, 
+            {
                 invert_lightness: false
             }, {
                 lightness: 2
@@ -22,7 +25,7 @@ function initialize_map() {
             }, {
                 visibility: "on"
             }]
-        }]
+        }]*/
     }
     var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
 
