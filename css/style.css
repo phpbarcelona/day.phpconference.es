@@ -1366,3 +1366,8 @@ thead th{
     margin-bottom: -10px;
     font-size: smaller;
 }
+
+.sponsor-gold img {
+    width: 460px;
+    height: 110px;
+}
