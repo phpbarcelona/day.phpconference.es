@@ -12,7 +12,7 @@ function initialize_map() {
         styles: [{
             stylers: [{
                 gamma: 0.60
-            }, 
+            },
             {
                 hue: "#dd0d0d"
             }, 
@@ -54,12 +54,5 @@ $( document ).ready(function() {
             }
         }
     });
-    var date = new Date('2014-12-25 00:00:00 am');
-    new FlipClock($('#countdown'), date, {
-        countdown: true,
-        clockFace: 'DailyCounter',
-        language: 'es'
-    });
-
 });
 
