@@ -1367,7 +1367,18 @@ thead th{
     font-size: smaller;
 }
 
+.sponsor-platinum img {
+	height: 180px;
+}
+
 .sponsor-gold img {
-    width: 460px;
     height: 110px;
+}
+
+.sponsor-silver img {
+	height: 110px;
+}
+
+.sponsor-bronze img {
+	height: 80px;
 }
