@@ -1382,3 +1382,7 @@ thead th{
 .sponsor-bronze img {
 	height: 80px;
 }
+
+.citilab {
+	background-image: url("images/citilab.jpg");
+}
